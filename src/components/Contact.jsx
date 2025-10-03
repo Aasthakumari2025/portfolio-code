@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className=' mt-[80px]'>
                     <div className='w-full flex justify-between font-bold border-b-2 border-white py-[30px] text-white lg:text-2xl' >
                         <div>Ava Green</div>
-                        <div className='flex max-w-[500px] gap-[10px] lg:justify-between'>
+                        <div className='flex max-w-[500px] gap-[10px]  lg:justify-between'>
                             <p>Navigation</p>
                             <p>Templates</p>
                         </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                             <p className='text-yellow-400'>Let’s stay in touch</p>
                         </div>
 
-                        <div className='flex  max-w-[500px] justify-between  text-gray-500'>
+                        <div className='flex  max-w-[500px] lg:justify-between gap-[10px] text-gray-500'>
                             <ul className='space-y-4'>
                                 <li> <a href='#home'>Home</a></li>
                                 <li> <a href='#works'>Works</a></li>
